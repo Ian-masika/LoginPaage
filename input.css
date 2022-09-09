@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    
+    background-color: rgb(164, 191, 235);
+
+}
+.form {
+    width: 400px;
+    height: 500px;
+    margin: 56px;
+    border-radius: 27px;
+background: linear-gradient(145deg, #ffffff, #e6e6e6);
+box-shadow:  5px 5px 23px #666666,
+             -5px -5px 23px #ffffff;
+}
+.btn {
+    /* From https://css.glass */
+background: rgba(99, 176, 205, 0.77);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+border: 1px solid rgba(99, 176, 205, 0.44);
+}
